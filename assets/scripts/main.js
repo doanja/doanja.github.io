@@ -12,7 +12,7 @@ const toggleMenu = () => {
     menu.classList.add('show');
     menuNav.classList.add('show');
     menuBranding.classList.add('show');
-    navItems.forEach((item) => item.classList.add('show'));
+    navItems.forEach(item => item.classList.add('show'));
 
     // set menu state
     showMenu = true;
@@ -21,7 +21,7 @@ const toggleMenu = () => {
     menu.classList.remove('show');
     menuNav.classList.remove('show');
     menuBranding.classList.remove('show');
-    navItems.forEach((item) => item.classList.remove('show'));
+    navItems.forEach(item => item.classList.remove('show'));
 
     // set menu state
     showMenu = false;
@@ -33,13 +33,13 @@ let showMenu = false;
 menuBtn.addEventListener('click', toggleMenu);
 
 const test = () => {
-  alert('home clicked');
+  // alert('home clicked');
 };
 
 main.addEventListener('click', test);
 
 const test2 = () => {
-  alert('menu clicked');
+  // alert('menu clicked');
 };
 
 menuNav.addEventListener('click', test2);
