@@ -1,0 +1,62 @@
+[
+   {
+      "skillName":"Languages",
+      "skills":[
+         "TypeScript",
+         "JavaScript",
+         "CSS",
+         "SASS",
+         "SQL",
+         "NoSQL"
+      ]
+   },
+   {
+      "skillName":"Frameworks & Libraries",
+      "skills":[
+         "React",
+         "Node",
+         "Express",
+         "React Native",
+         "Tailwind CSS",
+         "Bootstrap",
+         "Redux",
+         "jQuery",
+         "JWT"
+      ]
+   },
+   {
+      "skillName":"Databases",
+      "skills":[
+         "SQL",
+         "NoSQL",
+         "MySQL",
+         "MongoDB",
+         "Redis"
+      ]
+   },
+   {
+      "skillName":"Testing Libaries",
+      "skills":[
+         "Jest",
+         "Mocha",
+         "Chai",
+         "React Testing Library",
+         "Enzyme"
+      ]
+   },
+   {
+      "skillName":"Other Skills",
+      "skills":[
+         "Git",
+         "Agile Development",
+         "Responsive Web Design",
+         "JSON",
+         "ES6",
+         "AJAX",
+         "Development with APIs",
+         "Web Services",
+         "Continuous Integration CI/CD",
+         "HTML / HTML5"
+      ]
+   }
+]
