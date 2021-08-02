@@ -22,6 +22,8 @@ body {
   @apply text-lg font-bold px-5;
 }
 
+/* footer stuff */
+
 footer {
   @apply w-full pt-8 pb-12 px-10 my-4 mx-auto;
 }
@@ -31,7 +33,7 @@ footer {
 }
 
 .footer-link-group {
-  @apply flex flex-col w-full max-w-xs border border-red-100;
+  @apply flex flex-col w-full max-w-xs items-center md:items-start;
 }
 
 .footer-link-title {
@@ -47,11 +49,11 @@ footer {
 }
 
 .footer-icon-group {
-  @apply flex flex-row w-full max-w-xs border border-red-100;
+  @apply flex flex-row w-full max-w-xs justify-center md:justify-end;
 }
 
 .footer-icon {
-  @apply text-white transition-all duration-200 ease-in;
+  @apply text-white transition-all duration-200 ease-in ml-3;
 }
 
 .footer-icon:hover {

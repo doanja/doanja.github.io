@@ -12,9 +12,9 @@ const Footer = () => {
         </div>
 
         <div className='footer-link-group'>
-          <h4 className='footer-link-title'>Phone</h4>
-          <a href='123-123-1234' className='footer-link'>
-            123-123-1234
+          <h4 className='footer-link-title'>Email</h4>
+          <a href='test@test.com' className='footer-link'>
+            test@test.com
           </a>
         </div>
 
