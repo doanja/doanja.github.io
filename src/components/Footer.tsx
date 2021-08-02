@@ -2,23 +2,27 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <footer className='flex w-full pt-8 pb-12 py-10 bg-gray-100'>
-      <div className='flex flex-row'>
-        <div className='flex flex-col'>
-          <p>Phone</p>
-          <p>123-123-1234</p>
+    <footer>
+      <div className='footer-link-wrap'>
+        <div className='footer-link-group'>
+          <h4 className='footer-link-title'>Phone</h4>
+          <a href='123-123-1234' className='footer-link'>
+            123-123-1234
+          </a>
         </div>
 
-        <div className='flex flex-col'>
-          <p>Phone</p>
-          <p>123-123-1234</p>
+        <div className='footer-link-group'>
+          <h4 className='footer-link-title'>Phone</h4>
+          <a href='123-123-1234' className='footer-link'>
+            123-123-1234
+          </a>
         </div>
       </div>
 
-      <div className='flex flex-row'>
+      {/* <div className='flex flex-row'>
         <AiFillGithub size='3rem' />
         <AiFillLinkedin size='3rem' />
-      </div>
+      </div> */}
 
       {/* Copyright &copy; 2021 doanja */}
     </footer>
