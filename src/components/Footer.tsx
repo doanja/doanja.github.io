@@ -17,14 +17,16 @@ const Footer = () => {
             123-123-1234
           </a>
         </div>
+
+        <div className='footer-icon-group'>
+          <div className='footer-icon'>
+            <AiFillGithub size='2rem' />
+          </div>
+          <div className='footer-icon'>
+            <AiFillLinkedin size='2rem' />
+          </div>
+        </div>
       </div>
-
-      {/* <div className='flex flex-row'>
-        <AiFillGithub size='3rem' />
-        <AiFillLinkedin size='3rem' />
-      </div> */}
-
-      {/* Copyright &copy; 2021 doanja */}
     </footer>
   );
 };

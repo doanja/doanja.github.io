@@ -45,3 +45,15 @@ footer {
 .footer-link:hover {
   @apply text-white left-1;
 }
+
+.footer-icon-group {
+  @apply flex flex-row w-full max-w-xs border border-red-100;
+}
+
+.footer-icon {
+  @apply text-white transition-all duration-200 ease-in;
+}
+
+.footer-icon:hover {
+  @apply text-gray-500 transform scale-110 cursor-pointer;
+}
