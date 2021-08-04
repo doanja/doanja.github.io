@@ -12,7 +12,7 @@ const Navbar = () => {
 
       {/* hamburger */}
       <div className='flex md:hidden'>
-        <button onClick={() => setShowMenu(!showMenu)} className='mr-3 transition-all duration-200 ease-out'>
+        <button onClick={() => setShowMenu(!showMenu)} className='mr-3'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className={`${showMenu ? 'block' : 'hidden'} h-8 w-8 text-white`}
@@ -34,14 +34,16 @@ const Navbar = () => {
       </div>
 
       {/* nav links */}
-      <div
-        className={` ${showMenu && 'hidden'} md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-gray-300 md:border-none`}
+      <ul
+        className={` ${
+          showMenu && 'transform h-0 md:h-full md:items-center md:transform-none'
+        } w-full text-right mt-5 font-bold border-t-2 border-gray-300 origin-top duration-300 scale-y-0 md:flex md:w-auto md:mt-0 md:border-none `}
         onClick={closeMenu}>
         <NavLink linkTo='about' linkText='about' />
         <NavLink linkTo='projects' linkText='projects' />
         <NavLink linkTo='education' linkText='education' />
         <NavLink linkTo='skills' linkText='skills' />
-      </div>
+      </ul>
     </nav>
   );
 };
