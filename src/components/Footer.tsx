@@ -19,12 +19,12 @@ const Footer = () => {
         </div>
 
         <div className='footer-icon-wrap'>
-          <div className='footer-icon'>
+          <a className='footer-icon' href='https://github.com/doanja'>
             <AiFillGithub size='2rem' />
-          </div>
-          <div className='footer-icon'>
+          </a>
+          <a className='footer-icon' href='https://www.linkedin.com/in/doanjohnc/'>
             <AiFillLinkedin size='2rem' />
-          </div>
+          </a>
         </div>
       </div>
     </footer>

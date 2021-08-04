@@ -1,4 +1,4 @@
-import { Nav, Footer } from '.';
+import { Nav, Footer } from './';
 
 interface LayoutProps {
   children: React.ReactNode;
