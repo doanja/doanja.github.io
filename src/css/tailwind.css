@@ -28,28 +28,28 @@ footer {
   @apply w-full pt-8 pb-12 px-10 my-4 mx-auto;
 }
 
-.footer-link-wrap {
-  @apply flex flex-col gap-10 pt-10 pb-0 px-7 border-t border-gray-600 md:flex-row;
+.footer-wrap {
+  @apply flex flex-col gap-5 pt-10 pb-0 px-7 border-t border-gray-600 md:flex-row md:gap-10;
 }
 
-.footer-link-group {
-  @apply flex flex-col w-full max-w-xs items-center md:items-start;
+.footer-link-wrap {
+  @apply flex flex-col w-full items-center md:items-start md:w-60;
 }
 
 .footer-link-title {
-  @apply mb-4 not-italic font-semibold text-xs uppercase text-gray-500;
+  @apply mb-2 not-italic font-semibold text-xs uppercase text-gray-500 md:mb-4;
 }
 
 .footer-link {
-  @apply mb-4 text-base text-gray-400 transition-all duration-200 ease-in relative left-0;
+  @apply mb-2 text-base text-gray-400 transition-all duration-200 ease-in relative left-0 md:mb-4;
 }
 
 .footer-link:hover {
   @apply text-white left-1;
 }
 
-.footer-icon-group {
-  @apply flex flex-row w-full max-w-xs justify-center md:justify-end;
+.footer-icon-wrap {
+  @apply flex flex-row w-full justify-center md:justify-end;
 }
 
 .footer-icon {

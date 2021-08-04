@@ -26,7 +26,7 @@ const Home: React.FC = () => {
     //   <h1 className='section-title'>Skills</h1>
     //   <TextCard textCardTypeSkills={true} />
     // </div>
-    <div className='conotainer bg-red-300'>
+    <div className='container bg-red-300'>
       <h1 id='about' className='h-96'>
         about
       </h1>
