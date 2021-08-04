@@ -1,9 +1,11 @@
+import React from 'react';
+
 interface NavLinkProps {
   linkTo: string;
   linkText: string;
 }
 
-const NavLink = ({ linkTo, linkText }: NavLinkProps) => {
+const NavLink: React.FC<NavLinkProps> = ({ linkTo, linkText }) => {
   return (
     <a
       href={`#${linkTo}`}

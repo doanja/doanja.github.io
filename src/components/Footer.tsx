@@ -1,6 +1,7 @@
+import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer>
       <div className='footer-wrap'>

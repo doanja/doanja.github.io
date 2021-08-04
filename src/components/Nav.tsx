@@ -1,7 +1,8 @@
+import React from 'react';
 import { useState } from 'react';
 import { NavLink } from '.';
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const [showMenu, setShowMenu] = useState(true);
   const closeMenu = () => !showMenu && setShowMenu(!showMenu);
 

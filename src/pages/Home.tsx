@@ -4,6 +4,7 @@ import Card from '../components/Card';
 import SocialIcons from '../components/SocialIcons';
 import TextCard from '../components/TextCard';
 import projects from '../assets/json/projects.json';
+import { Intro, IntroAnimation } from 'src/components';
 
 const Home: React.FC = () => {
   return (
@@ -26,20 +27,25 @@ const Home: React.FC = () => {
     //   <h1 className='section-title'>Skills</h1>
     //   <TextCard textCardTypeSkills={true} />
     // </div>
-    <div className='container bg-red-300'>
-      <h1 id='about' className='h-96'>
-        about
-      </h1>
-      <h1 id='projects' className='h-96'>
-        projects
-      </h1>
-      <h1 id='education' className='h-96'>
-        education
-      </h1>
-      <h1 id='skills' className='h-96'>
-        skills
-      </h1>
-    </div>
+
+    <Intro>
+      <IntroAnimation />
+    </Intro>
+
+    // <div className='container bg-red-300'>
+    //   <h1 id='about' className='h-96'>
+    //     about
+    //   </h1>
+    //   <h1 id='projects' className='h-96'>
+    //     projects
+    //   </h1>
+    //   <h1 id='education' className='h-96'>
+    //     education
+    //   </h1>
+    //   <h1 id='skills' className='h-96'>
+    //     skills
+    //   </h1>
+    // </div>
   );
 };
 
