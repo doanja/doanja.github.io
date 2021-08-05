@@ -4,7 +4,7 @@ import Card from '../components/Card';
 import SocialIcons from '../components/SocialIcons';
 import TextCard from '../components/TextCard';
 import projects from '../assets/json/projects.json';
-import { Intro, IntroAnimation } from 'src/components';
+import { Intro, IntroText, IntroAnimation } from 'src/components';
 
 const Home: React.FC = () => {
   return (
@@ -29,6 +29,7 @@ const Home: React.FC = () => {
     // </div>
 
     <Intro>
+      <IntroText />
       <IntroAnimation />
     </Intro>
 

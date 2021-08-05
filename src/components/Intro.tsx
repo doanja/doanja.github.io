@@ -5,7 +5,7 @@ interface IntroProps {
 }
 
 const Intro: React.FC<IntroProps> = ({ children }) => {
-  return <section className='section-wrap'>{children}</section>;
+  return <div className='intro-wrap'>{children}</div>;
 };
 
 export default Intro;

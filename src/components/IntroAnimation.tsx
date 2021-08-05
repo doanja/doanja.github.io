@@ -3,7 +3,7 @@ import React from 'react';
 const IntroAnimation: React.FC = () => {
   return (
     <div>
-      <svg className='BgAnimation__svg' viewBox='0 0 602 602' fill='none' xmlns='http://www.w3.org/2000/svg'>
+      <svg className='svg' viewBox='0 0 602 602' fill='none' xmlns='http://www.w3.org/2000/svg'>
         <g opacity='0.15'>
           <path
             fillRule='evenodd'
