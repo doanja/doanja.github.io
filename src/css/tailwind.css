@@ -75,3 +75,9 @@ footer {
 .card-wrap {
   @apply flex flex-col p-4 gap-4 md:grid md:grid-cols-2 md:place-items-center md:gap-4;
 }
+
+/* technologies */
+
+.technologies-section {
+  @apply flex flex-col pt-8 pb-12 px-0 my-0 mx-auto max-w-screen-lg box-content relative overflow-hidden;
+}

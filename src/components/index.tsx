@@ -10,4 +10,6 @@ import IntroAnimation from './IntroAnimation';
 import Projects from './Projects';
 import Card from './Card';
 
-export { Layout, Nav, NavLink, Footer, Intro, IntroText, IntroAnimation, Projects, Card };
+import Technologies from './Technologies';
+
+export { Layout, Nav, NavLink, Footer, Intro, IntroText, IntroAnimation, Projects, Card, Technologies };
