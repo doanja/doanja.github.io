@@ -7,4 +7,7 @@ import Intro from './Intro';
 import IntroText from './IntroText';
 import IntroAnimation from './IntroAnimation';
 
-export { Layout, Nav, NavLink, Footer, Intro, IntroText, IntroAnimation };
+import Projects from './Projects';
+import Card from './Card';
+
+export { Layout, Nav, NavLink, Footer, Intro, IntroText, IntroAnimation, Projects, Card };

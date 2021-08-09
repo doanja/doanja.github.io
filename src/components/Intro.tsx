@@ -1,11 +1,13 @@
 import React from 'react';
+import { IntroAnimation, IntroText } from './';
 
-interface IntroProps {
-  children: React.ReactNode;
-}
-
-const Intro: React.FC<IntroProps> = ({ children }) => {
-  return <div className='intro-wrap'>{children}</div>;
+const Intro: React.FC = () => {
+  return (
+    <div className='intro-wrap border-2 border-red-400'>
+      <IntroText />
+      <IntroAnimation />
+    </div>
+  );
 };
 
 export default Intro;

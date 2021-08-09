@@ -6,22 +6,6 @@ body {
   background-color: #0a0b0e;
 }
 
-.icon {
-  @apply text-white p-1.5 transition ease-in-out duration-700 hover:text-gray-400;
-}
-
-.scroll-left-icon {
-  @apply absolute z-10 top-1/4 left-0 bg-gray-50 text-gray-900 cursor-pointer;
-}
-
-.scroll-right-icon {
-  @apply absolute z-10 top-1/4 right-0 bg-gray-50 text-gray-900 cursor-pointer;
-}
-
-.section-title {
-  @apply text-lg font-bold px-5;
-}
-
 /* footer stuff */
 
 footer {
@@ -60,7 +44,7 @@ footer {
   @apply text-white transform scale-110 cursor-pointer;
 }
 
-/* intro header stuff */
+/* intro */
 
 .intro-wrap {
   @apply grid grid-cols-2 py-8 px-0 my-0 mx-auto max-w-5xl box-content relative overflow-hidden;
@@ -75,9 +59,19 @@ footer {
 }
 
 .section-title {
-  @apply w-max mb-2 pt-4 px-2 text-3xl font-semibold leading-snug text-gray-200 md:mb-4 md:pt-14 pb-0 md:px-4 md:text-6xl;
+  @apply w-max mb-2 pt-4 text-3xl font-semibold leading-snug text-gray-200 md:mb-4 md:pt-14 pb-0 md:px-4 md:text-6xl;
 }
 
 .section-text {
-  @apply max-w-3xl px-4 text-base pb-4 font-light leading-relaxed text-gray-300 md:pb-14 md:text-2xl;
+  @apply max-w-3xl px-4 pb-4 text-base font-light leading-relaxed text-gray-300 md:pb-14 md:text-2xl;
+}
+
+/* projects */
+
+.section-wrap {
+  @apply flex flex-col my-0 p-0 mx-auto max-w-5xl box-content relative overflow-hidden;
+}
+
+.card-wrap {
+  @apply flex flex-col p-4 gap-4 md:grid md:grid-cols-2 md:place-items-center md:gap-4;
 }
