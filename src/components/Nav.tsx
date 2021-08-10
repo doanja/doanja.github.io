@@ -40,10 +40,10 @@ const Navbar: React.FC = () => {
           showMenu && 'transform h-0 md:h-full md:items-center md:transform-none'
         } w-full text-right mt-5 font-bold origin-top duration-300 scale-y-0 md:flex md:w-auto md:mt-0 md:border-none `}
         onClick={closeMenu}>
-        <NavLink linkTo='about' linkText='about' />
         <NavLink linkTo='projects' linkText='projects' />
-        <NavLink linkTo='education' linkText='education' />
         <NavLink linkTo='skills' linkText='skills' />
+        <NavLink linkTo='about' linkText='about' />
+        {/* <NavLink linkTo='education' linkText='education' /> */}
       </ul>
     </nav>
   );

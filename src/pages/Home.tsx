@@ -1,5 +1,5 @@
 import React from 'react';
-import { Intro, Projects, Technologies } from 'src/components';
+import { Intro, Projects, Skills } from 'src/components';
 
 const Home: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const Home: React.FC = () => {
     <>
       <Intro />
       <Projects />
-      <Technologies />
+      <Skills />
     </>
   );
 };
