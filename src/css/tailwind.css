@@ -66,18 +66,10 @@ footer {
   @apply max-w-3xl px-4 pb-4 text-base font-light leading-relaxed text-gray-300 md:pb-14 md:text-2xl;
 }
 
-/* projects */
-
 .section-wrap {
-  @apply flex flex-col my-0 p-0 mx-auto max-w-5xl box-content relative overflow-hidden;
+  @apply flex flex-col py-8 px-0 my-0 mx-auto max-w-5xl box-content relative overflow-hidden;
 }
 
 .card-wrap {
-  @apply flex flex-col p-4 gap-4 md:grid md:grid-cols-2 md:place-items-center md:gap-4;
-}
-
-/* technologies */
-
-.technologies-section {
-  @apply flex flex-col pt-8 pb-12 px-0 my-0 mx-auto max-w-screen-lg box-content relative overflow-hidden;
+  @apply flex flex-col p-4 mb-8 gap-4 md:grid md:grid-cols-2 md:place-items-center md:gap-4;
 }

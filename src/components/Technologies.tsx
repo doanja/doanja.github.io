@@ -2,7 +2,7 @@ import React from 'react';
 
 const Technologies: React.FC = ({}) => {
   return (
-    <div className='technologies-section border-2 border-blue-600'>
+    <div className='section-wrap border-2 border-blue-600'>
       <div className='section-title'>Technologies</div>
       <div className='section-text'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate hic iure eligendi porro, aut rem cupiditate libero quia, laboriosam
