@@ -3,10 +3,47 @@
 @tailwind utilities;
 
 body {
-  background-color: #0a0b0e;
+  background-color: #171920;
 }
 
-/* footer stuff */
+.section-wrap {
+  @apply flex flex-col py-8 px-0 my-0 mx-auto max-w-5xl box-content relative overflow-hidden;
+}
+
+.section-title {
+  @apply w-max mb-2 pt-4 text-3xl font-semibold leading-snug text-gray-200 md:mb-4 md:pt-14 pb-0 md:px-4 md:text-6xl;
+}
+
+.section-text {
+  @apply max-w-3xl px-4 pb-4 text-base font-light leading-relaxed text-gray-300 md:pb-14 md:text-2xl;
+}
+
+/* intro */
+
+.intro-wrap {
+  @apply grid grid-cols-2 py-8 px-0 my-0 mx-auto max-w-5xl box-content relative overflow-hidden;
+}
+
+.intro-text-wrap {
+  @apply flex flex-row p-0 my-0 mx-auto max-w-5xl box-content relative overflow-hidden;
+}
+
+.left-section {
+  @apply flex flex-col my-0 mx-auto w-full md:flex md:flex-col;
+}
+
+/* projects */
+
+.card-wrap {
+  @apply flex flex-col p-4 mb-8 gap-4 md:grid md:grid-cols-2 md:place-items-center md:gap-4;
+}
+
+.card {
+  box-shadow: 3px 3px 20px rgba(180, 180, 180, 0.5);
+  @apply flex flex-col h-full justify-between bg-white rounded-md;
+}
+
+/* footer */
 
 footer {
   @apply w-full pt-8 pb-12 px-10 my-4 mx-auto;
@@ -42,34 +79,4 @@ footer {
 
 .footer-icon:hover {
   @apply text-white transform scale-110 cursor-pointer;
-}
-
-/* intro */
-
-.intro-wrap {
-  @apply grid grid-cols-2 py-8 px-0 my-0 mx-auto max-w-5xl box-content relative overflow-hidden;
-}
-
-.intro-text-wrap {
-  @apply flex flex-row p-0 my-0 mx-auto max-w-5xl box-content relative overflow-hidden;
-}
-
-.left-section {
-  @apply flex flex-col my-0 mx-auto w-full md:flex md:flex-col;
-}
-
-.section-title {
-  @apply w-max mb-2 pt-4 text-3xl font-semibold leading-snug text-gray-200 md:mb-4 md:pt-14 pb-0 md:px-4 md:text-6xl;
-}
-
-.section-text {
-  @apply max-w-3xl px-4 pb-4 text-base font-light leading-relaxed text-gray-300 md:pb-14 md:text-2xl;
-}
-
-.section-wrap {
-  @apply flex flex-col py-8 px-0 my-0 mx-auto max-w-5xl box-content relative overflow-hidden;
-}
-
-.card-wrap {
-  @apply flex flex-col p-4 mb-8 gap-4 md:grid md:grid-cols-2 md:place-items-center md:gap-4;
 }
