@@ -8,17 +8,15 @@ const Navbar: React.FC = () => {
   const closeMenu = () => !showMenu && setShowMenu(!showMenu);
 
   return (
-    <nav className='flex flex-wrap items-center justify-between mt-0'>
+    <nav className='flex flex-wrap items-center justify-between'>
       {/* logo */}
-      <img src='https://www.wilsonfamilychiropracticcenter.net/wp-content/uploads/2018/12/placeholder-logo-2.png' alt='ACME' width='120' />
-
-      {/* <div style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
+      <div className='flex items-center text-white'>
         <GiTyre size='2rem' className='mr-2' /> <span></span>
-      </div> */}
+      </div>
 
       {/* hamburger */}
       <div className='flex md:hidden'>
-        <button onClick={() => setShowMenu(!showMenu)} className='mr-3'>
+        <button onClick={() => setShowMenu(!showMenu)}>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className={`${showMenu ? 'block' : 'hidden'} h-8 w-8 text-white`}
@@ -42,12 +40,12 @@ const Navbar: React.FC = () => {
       <ul
         className={` ${
           showMenu && 'transform h-0 md:h-full md:items-center md:transform-none'
-        } w-full text-right mt-5 font-bold origin-top duration-300 scale-y-0 md:flex md:w-auto md:mt-0 md:border-none `}
+        } w-full text-right mt-0 font-bold origin-top duration-300 scale-y-0 md:flex md:w-auto md:border-none`}
         onClick={closeMenu}>
         <NavLink linkTo='projects' linkText='projects' />
         <NavLink linkTo='skills' linkText='skills' />
         <NavLink linkTo='about' linkText='about' />
-        {/* <NavLink linkTo='education' linkText='education' /> */}
+        <NavLink linkTo='education' linkText='education' />
       </ul>
     </nav>
   );
