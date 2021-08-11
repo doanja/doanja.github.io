@@ -3,7 +3,7 @@ import { DiGit, DiVisualstudio, DiStreamline } from 'react-icons/di';
 
 const Skills: React.FC = ({}) => {
   return (
-    <div className='section-wrap border-2 border-blue-600'>
+    <div className='section-wrap border-2 border-blue-600' id='skills'>
       <div className='section-title'>Skills</div>
       <div className='section-text'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate hic iure eligendi porro, aut rem cupiditate libero quia, laboriosam

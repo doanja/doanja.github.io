@@ -1,7 +1,7 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { GiTyre } from 'react-icons/gi';
 import { NavLink } from './';
+import pdf from '../assets/files/resume.pdf';
 
 const Navbar: React.FC = () => {
   const [showMenu, setShowMenu] = useState(true);
@@ -42,10 +42,10 @@ const Navbar: React.FC = () => {
           showMenu && 'transform h-0 md:h-full md:items-center md:transform-none'
         } w-full text-right mt-0 font-bold origin-top duration-300 scale-y-0 md:flex md:w-auto md:border-none`}
         onClick={closeMenu}>
-        <NavLink linkTo='projects' linkText='projects' />
-        <NavLink linkTo='skills' linkText='skills' />
-        <NavLink linkTo='about' linkText='about' />
-        <NavLink linkTo='education' linkText='education' />
+        <NavLink linkTo='#projects' linkText='projects' />
+        <NavLink linkTo='#skills' linkText='skills' />
+        <NavLink linkTo='#about' linkText='about' />
+        <NavLink linkTo={pdf} linkText='resume' />
       </ul>
     </nav>
   );

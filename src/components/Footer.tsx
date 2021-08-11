@@ -1,5 +1,6 @@
 import React from 'react';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillFileText } from 'react-icons/ai';
+import pdf from '../assets/files/resume.pdf';
 
 const Footer: React.FC = () => {
   return (
@@ -20,11 +21,14 @@ const Footer: React.FC = () => {
         </div>
 
         <div className='footer-icon-wrap'>
-          <a className='footer-icon' href='https://github.com/doanja'>
+          <a className='footer-icon' href='https://github.com/doanja' target='_blank'>
             <AiFillGithub size='2rem' />
           </a>
-          <a className='footer-icon' href='https://www.linkedin.com/in/doanjohnc/'>
+          <a className='footer-icon' href='https://www.linkedin.com/in/doanjohnc/' target='_blank'>
             <AiFillLinkedin size='2rem' />
+          </a>
+          <a className='footer-icon' href={pdf} target='_blank'>
+            <AiFillFileText size='2rem' />
           </a>
         </div>
       </div>
