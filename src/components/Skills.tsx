@@ -15,20 +15,20 @@ const Skills: React.FC = ({}) => {
 
           <div className='skill-wrap'>
             <h4 className='skill-title'>Languages</h4>
-            <p className='skill-text'>TypeScript, JavaScript, CSS, SASS, SQL, NoSQL</p>
+            <p className='skill-text'>TypeScript, JavaScript, CSS, SASS, SQL</p>
           </div>
         </li>
         <li className='skill-item'>
           <DiStreamline size='2rem' className='skill-icon' />
           <div className='skill-wrap'>
             <h4 className='skill-title'>Frameworks & Libraries</h4>
-            <p className='skill-text'>React, Node, React Native, , jQuery, NextJS</p>
+            <p className='skill-text'>React, Node, React Native, jQuery, NextJS</p>
           </div>
         </li>
         <li className='skill-item'>
           <DiGit size='2rem' className='skill-icon' />
           <div className='skill-wrap'>
-            <h4 className='skill-title'>Misc.</h4>
+            <h4 className='skill-title'>Other Skills</h4>
             <p className='skill-text'> Jest, React Testing Library, Enzyme, Docker, CI/CD</p>
           </div>
         </li>

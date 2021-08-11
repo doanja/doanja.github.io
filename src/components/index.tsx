@@ -12,4 +12,6 @@ import Card from './Card';
 
 import Skills from './Skills';
 
-export { Layout, Nav, NavLink, Footer, Intro, IntroText, IntroAnimation, Projects, Card, Skills };
+import About from './About';
+
+export { Layout, Nav, NavLink, Footer, Intro, IntroText, IntroAnimation, Projects, Card, Skills, About };
