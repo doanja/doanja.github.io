@@ -1,10 +1,11 @@
 import Home from './pages/Home';
+import { Layout } from './components';
 
 function App() {
   return (
-    <div className='antialiased bg-white font-sans flex justify-center item-center'>
+    <Layout>
       <Home />
-    </div>
+    </Layout>
   );
 }
 
