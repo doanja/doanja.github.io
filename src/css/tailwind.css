@@ -35,7 +35,7 @@ body {
 /* projects */
 
 .card-wrap {
-  @apply flex flex-col mb-8 gap-4 md:grid md:grid-cols-2 md:place-items-center md:gap-4 md:pb-4;
+  @apply flex flex-col mb-8 gap-4 md:grid md:grid-cols-2 md:place-items-center md:gap-4 md:pb-4 md:px-4;
 }
 
 .card {

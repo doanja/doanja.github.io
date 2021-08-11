@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-import { NavLink } from '.';
+import { GiTyre } from 'react-icons/gi';
+import { NavLink } from './';
 
 const Navbar: React.FC = () => {
   const [showMenu, setShowMenu] = useState(true);
@@ -10,6 +11,10 @@ const Navbar: React.FC = () => {
     <nav className='flex flex-wrap items-center justify-between mt-0'>
       {/* logo */}
       <img src='https://www.wilsonfamilychiropracticcenter.net/wp-content/uploads/2018/12/placeholder-logo-2.png' alt='ACME' width='120' />
+
+      {/* <div style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
+        <GiTyre size='2rem' className='mr-2' /> <span></span>
+      </div> */}
 
       {/* hamburger */}
       <div className='flex md:hidden'>
@@ -33,7 +38,6 @@ const Navbar: React.FC = () => {
           </svg>
         </button>
       </div>
-
       {/* nav links */}
       <ul
         className={` ${

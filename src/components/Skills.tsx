@@ -22,7 +22,7 @@ const Skills: React.FC = ({}) => {
           <DiStreamline size='2rem' className='skill-icon' />
           <div className='skill-wrap'>
             <h4 className='skill-title'>Frameworks & Libraries</h4>
-            <p className='skill-text'>React, Node, Express, React Native, Redux, jQuery, JWT, Mongo, Redis</p>
+            <p className='skill-text'>React, Node, React Native, , jQuery, NextJS</p>
           </div>
         </li>
         <li className='skill-item'>
