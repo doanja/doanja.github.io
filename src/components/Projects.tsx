@@ -1,10 +1,11 @@
 import React from 'react';
 import projects from '../assets/json/projects.json';
-import { Card } from './';
+import { Card, SectionBreak } from './';
 
 const Projects: React.FC = () => {
   return (
-    <div className='section-wrap border-2 border-yellow-300' id='projects'>
+    <div className='section-wrap' id='projects'>
+      <SectionBreak />
       <h2 className='section-title'>Projects</h2>
       <div className='card-wrap'>
         {projects.map((project: Project) => (

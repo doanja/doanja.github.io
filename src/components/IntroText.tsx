@@ -10,9 +10,7 @@ const IntroText: React.FC<IntroTextProps> = ({}) => {
           Welcome To <br />
           My Personal Portfolio
         </h2>
-        <p className='section-text'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eum? Ut sunt at suscipit labore ipsa quam ullam perspiciatis saepe!
-        </p>
+        <p className='section-text'>John Doan - Web Designer and Programmer</p>
       </div>
     </div>
   );

@@ -10,6 +10,11 @@ body {
   @apply flex flex-col py-8 px-0 my-0 mx-auto max-w-5xl box-content relative overflow-hidden;
 }
 
+.section-break {
+  background: linear-gradient(270deg, #5e6efa 0%, #60d9dd 100%);
+  @apply w-8 h-1 rounded-lg bg-white md:w-12 lg:w-16;
+}
+
 .section-title {
   @apply w-max mb-2 pt-4 text-3xl font-semibold leading-snug text-gray-200 md:mb-4 md:pt-14 pb-0 md:px-4 md:text-6xl;
 }
