@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
     <nav className='flex flex-wrap items-center justify-between p-2 md:p-4'>
       {/* logo */}
       <div className='flex items-center text-gray-400'>
-        <GiTyre size='2rem' className='mr-2' /> <span>test</span>
+        <GiTyre size='2rem' className='mr-2' /> <span>John's Portfolio</span>
       </div>
 
       {/* hamburger */}

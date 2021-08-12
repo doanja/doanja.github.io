@@ -8,8 +8,8 @@ const Skills: React.FC = ({}) => {
       <SectionBreak />
       <div className='section-title'>Skills</div>
       <div className='section-text'>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate hic iure eligendi porro, aut rem cupiditate libero quia, laboriosam
-        tempora delectus qui totam eveniet iste unde non dolorem deserunt nihil.
+        I have a bachelor’s degree in computer science, and hands-on experience creating a multitude of full stack web applications using various
+        technologies, frameworks and libraries.
       </div>
       <ul className='skill-list'>
         <li className='skill-item'>

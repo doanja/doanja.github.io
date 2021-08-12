@@ -11,7 +11,7 @@ body {
 }
 
 .section-break {
-  background: linear-gradient(270deg, #5e6efa 0%, #60d9dd 100%);
+  background: linear-gradient(270deg, #a7a7a7 0%, #ffffff 100%);
   @apply w-8 h-1 rounded-lg bg-white md:w-12 lg:w-16;
 }
 
