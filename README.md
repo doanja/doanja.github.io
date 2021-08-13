@@ -4,7 +4,7 @@ This is a web resume portfolio detailing my projects, skills, and accomplishment
 
 ## Demo
 
-View live demo [here](https://https://doanja.github.io/.com/).
+View live demo [here](https://doanja.github.io/).
 
 ## Tech Stack
 
